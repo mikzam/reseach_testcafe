@@ -48,9 +48,9 @@ const checked = Selector(elementWithIdOrClassName('ag-selection-checkbox'));
 const role_user = Role('https://miller2.netzme.id:9898/static/cdd/index.html#', async t =>{
     await t
      .click(submitButtonExists2)
-     .typeText('#identifierId', 'mikzam@netzme.id')
+     .typeText('#identifierId', 'xxxxxxxxx')
      .pressKey('enter')
-     .typeText(passwordInput, 'startup555')
+     .typeText(passwordInput, 'xxxxxxxx')
      .pressKey('enter')
      
      ;
@@ -99,9 +99,9 @@ test('remove_agent', async t => {
     await t
      //.useRole(role_user)
      .click(submitButtonExists2)
-     .typeText('#identifierId', 'mikzam@netzme.id')
+     .typeText('#identifierId', 'xxxxxx')
      .pressKey('enter')
-     .typeText(passwordInput, 'startup555')
+     .typeText(passwordInput, 'xxxxxxxx')
      .pressKey('enter')
 
 
@@ -133,9 +133,9 @@ test('approve_cdd', async t => {
     await t
      //.useRole(role_user)
      .click(submitButtonExists2)
-     .typeText('#identifierId', 'mikzam@netzme.id')
+     .typeText('#identifierId', 'xxxxxxxxxx')
      .pressKey('enter')
-     .typeText(passwordInput, 'startup555')
+     .typeText(passwordInput, 'xxxxxxxx')
      .pressKey('enter')
 
 
