@@ -142,7 +142,8 @@ test('approve_cdd', async t => {
      .click(Selector(focus_table), { speed: 0.3 })
      .click(Selector(filterButton))
      .typeText('#filterText', '2018-05-02 15:24:14', { speed: 0.3 })
-     .click(Selector(checked).ok())
+     .setNativeDialogHandler(() => true)
+     .click(Selector(checked))
      .click(Selector(approveButton_cdd))
      .click(Selector('input[name = approveContentCheckBox]').withText('Sekarang kamu bisa menjadi Agen Netzme'))
 
