@@ -65,9 +65,9 @@ test('add_agent', async t => {
     await t
      //.useRole(role_user)
      .click(submitButtonExists2)
-     .typeText('#identifierId', 'mikzam@netzme.id')
+     .typeText('#identifierId', 'xxxxxxx')
      .pressKey('enter')
-     .typeText(passwordInput, 'startup555')
+     .typeText(passwordInput, 'xxxxxxxx')
      .pressKey('enter')
 
 
